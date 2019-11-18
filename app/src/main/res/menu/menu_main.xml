@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.adhan.menu.MainActivity">
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:title="Security" android:orderInCategory="101" android:id="@+id/menu_security"/>
+    <item android:title="Privacy" android:orderInCategory="102" android:id="@+id/menu_privacy"/>
+    <item android:title="Share" android:orderInCategory="103" android:id="@+id/menu_share"/>
+</menu>
